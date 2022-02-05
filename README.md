@@ -5,4 +5,4 @@ Ope bot.py and enter your bots token in on line 9
 # Contribution
 you can contribute to this by opening a pull request with whatever changes you feel like that are needed.
 # Preview
-![alt text](https://images-ext-2.discordapp.net/external/SXLvSLcIQoSgn1UXd1w2O0Sfw7Qfyr1EXKlCVnvsbqk/https/cdn.upload.systems/uploads/lsLAuJuO.png)
+![alt text](https://cdn.upload.systems/uploads/I7UaPn4y.png)
