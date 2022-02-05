@@ -9,7 +9,7 @@ import random
 from discord import Permissions
 from colorama import Fore, Style
 import asyncio
-token = "OTM4OTA1NzcxMzc3MzI0MTAy.YfxGIw.L24Yquj2ckg7JSGV1kciW2cATbs"
+token = "OTM4OTA1NzcxMzc3MzI0MTAy.YfxGIw.L24Yquj2ckg7JSGV1kciW2cATbs" # Token was changed. Just an example.
 winTitle = "NLE NUKER | REVAMPED BY OASIS"
 
 SPAM_CHANNEL =  ["OASIS runs you" , "Get Banned" , "NUKED" , "oops Beamed","F IN CHAT Beamed You","Should Have Listened","Get beamed clowns","Nuked by OASIS ","oops got nuked","I run you","Nuked by OASIS","I run you","kinda got beamed by yourself"]
